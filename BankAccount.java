@@ -7,6 +7,10 @@ public class BankAccount {
     private String accountHolder;
     private double balance;
 
+    public BankAccount() {
+        System.out.println("Meghívódik a paraméter néküli konstruktor");
+    }
+
     public void setAccountNumber( String accountNumber){
         this.accountNumber=accountNumber;
     }

@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        BankAccount bankAccount= new BankAccount();
-        BankAccount bankAccount1= new BankAccount();
+       BankAccount bankAccount= new BankAccount();
+       BankAccount bankAccount1= new BankAccount();
 
       bankAccount.setAccountNumber("123-456-789");
       bankAccount.setAccountHolder("Customer_One");
