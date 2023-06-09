@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
        BankAccount account = new BankAccount("66642069");
+       BankAccount otherAccount = new BankAccount("Rozsomák Rozi");
 //       BankAccount bankAccount1= new BankAccount();
 
 //      account.setAccountNumber("123-456-789");
