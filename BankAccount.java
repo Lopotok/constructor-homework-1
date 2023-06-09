@@ -6,7 +6,6 @@ public class BankAccount {
     private String accountNumber;
     private String accountHolder;
     private double balance;
-    public BankAccount(){}
 
     public BankAccount(String accountNumber) {
         this.accountNumber = accountNumber;
