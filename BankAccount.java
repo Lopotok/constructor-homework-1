@@ -6,11 +6,11 @@ public class BankAccount {
     private String accountNumber;
     private String accountHolder;
     private double balance;
+    public BankAccount(){}
 
-    public BankAccount() {
-        System.out.println("Meghívódik a paraméter néküli konstruktor");
+    public BankAccount(String accountNumber) {
+        this.accountNumber = accountNumber;
     }
-
     public void setAccountNumber( String accountNumber){
         this.accountNumber=accountNumber;
     }
