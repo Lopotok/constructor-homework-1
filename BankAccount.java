@@ -10,13 +10,15 @@ public class BankAccount {
     public BankAccount(String accountNumber) {
         this.accountNumber = accountNumber;
     }
-    public BankAccount (double balance){
-        this.balance=balance;
-    }
+    // Paraméteres konstruktor
     public BankAccount( String accountNumber, String accountHolder, double balance){
         this.accountNumber=accountNumber;
         this.accountHolder= accountHolder;
         this.balance=balance;
+    }
+    // Default (alapértelmezett konstruktor)
+    public BankAccount(){
+        this("111-222-333","Overlord",998877);
     }
 
     public void setAccountNumber( String accountNumber){

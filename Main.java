@@ -1,14 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-       BankAccount account = new BankAccount("66642069");
-       BankAccount account1 = new BankAccount(1234567);
+ //      BankAccount account = new BankAccount("66642069");
+ //      BankAccount account1 = new BankAccount(1234567);
+
        BankAccount account2 = new BankAccount("33-22-11", "Ödön",333);
+       System.out.println(account2.getAccountNumber());
 
+       BankAccount defaultaccount = new BankAccount();
+       System.out.println(defaultaccount.getAccountHolder());
 
-//       BankAccount bankAccount1= new BankAccount();
+/*       BankAccount bankAccount1= new BankAccount();
 
-//      account.setAccountNumber("123-456-789");
+      account.setAccountNumber("123-456-789");
       account.setAccountHolder("Customer_One");
       account.setBalace(112233);
 
@@ -16,7 +20,7 @@ public class Main {
                 "\n A számlatulajdonos neve: "+ account.getAccountHolder()+
                         "\n Egyenlege: " +account.getBalance());
 
-/*      bankAccount1.setAccountNumber("987-654-321");
+      bankAccount1.setAccountNumber("987-654-321");
       bankAccount1.setAccountHolder("Customer_two");
       bankAccount1.setBalace(332211);
 
