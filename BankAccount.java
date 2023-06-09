@@ -10,9 +10,15 @@ public class BankAccount {
     public BankAccount(String accountNumber) {
         this.accountNumber = accountNumber;
     }
-    public BankAccount(String accountHolder) {
-        this.accountNumber = accountHolder;
+    public BankAccount (double balance){
+        this.balance=balance;
     }
+    public BankAccount( String accountNumber, String accountHolder, double balance){
+        this.accountNumber=accountNumber;
+        this.accountHolder= accountHolder;
+        this.balance=balance;
+    }
+
     public void setAccountNumber( String accountNumber){
         this.accountNumber=accountNumber;
     }
